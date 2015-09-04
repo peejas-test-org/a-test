@@ -1,3 +1,10 @@
 test:
   override:
     - echo Tests.
+
+deployment:
+  release:
+    tag: /release-.*/
+    owner: circleci
+    commands:
+      - echo 'Deploy!!!!!'
