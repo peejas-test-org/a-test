@@ -1,3 +1,4 @@
 test:
   override:
-    - echo Tests.
+    This is a
+    YAML error
