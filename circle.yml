@@ -4,3 +4,5 @@ test:
 deployment:
   release:
     tag: /release-.*/
+    commands:
+      - echo
